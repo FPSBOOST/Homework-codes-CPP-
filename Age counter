@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+    int main() {
+        int ano;
+        int idade;
+        int nascimento;
+
+        cout << "Em que ano estamos? " << endl;
+        cin >> ano;
+        cout << "Qual sua idade? " << endl;
+        cin >> idade;
+        nascimento = ano - idade;
+        cout << "Voce nascecu em:" << nascimento << endl;
+    }
