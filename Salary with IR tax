@@ -1,0 +1,13 @@
+    int main() {
+        double salarioBruto;
+        double salarioLiquido;
+        int IR = 7;
+
+        cout << "Entre com o salario Bruto: ";
+        cin >> salarioBruto;
+        cout <<  salarioBruto << " " <<" Salario bruto: " <<endl;
+
+        salarioLiquido = salarioBruto - (salarioBruto / IR) ;
+        cout << salarioLiquido << " " <<" Salario liquido com a taxa de 7% do IR" << endl;
+
+    }
