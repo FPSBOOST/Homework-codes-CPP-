@@ -8,3 +8,18 @@ using namespace std;
         cout << "12% de 2112 e:" << " " <<(valor * 12) / 100 <<  endl;
 
     }
+
+//Percent with user
+
+#include <iostream>
+using namespace std;
+
+    int main() {
+
+        double valor;
+
+        cout << "Digite um valor: " << endl;
+        cin >> valor;
+        cout << "Isto e 12% do seu valor: " << " " << (valor * 12) / 100 << endl;
+
+    }
