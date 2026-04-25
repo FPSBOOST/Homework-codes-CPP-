@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+    int main() {
+
+       int v_via;
+        int tolerancia = 15;
+        int v_permitida;
+
+        cout << "Qual a velocidade da via?" << endl;
+        cin >> v_via;
+
+        v_permitida = v_via * tolerancia / 100 - v_via;
+
+        if (v_permitida <= 0) {
+            v_permitida = -v_permitida;
+        }
+
+        cout << v_permitida << "KM/H" << " " << "Seu carro pode andar ate essa velocidade sem ser mutado!" << endl;
+
+
+    }
