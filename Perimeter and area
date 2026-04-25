@@ -1,1 +1,18 @@
+#include <iostream>
+using namespace std;
 
+
+    int main() {
+    #define pi 3.14
+
+        double expoente = 2;
+        double raio;
+
+        cout << "Qual o raio do seu circulo?" << endl;
+        cin >> raio ;
+
+        //área do circulo e perimetro
+        cout << "Area do circulo" << endl << (raio * expoente) * pi  << endl;
+        cout << "Perimetro do circulo" << endl << (2 * pi) * raio << endl;
+    return 0;
+}
