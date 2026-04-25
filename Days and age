@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int  ano;
+    int dias = 365;
+
+    inicio:
+
+    cout << "Quantos anos voce tem?" << endl;
+    cin >> ano;
+    
+    if (ano <= 0) {
+        cout << "Erro!" << endl;
+        goto inicio;
+    }
+
+    dias = dias * ano;
+    cout  << "Uau voce tem:" << " " << dias << " " << "dias de vida" << endl;
+}
