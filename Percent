@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+    int main() {
+
+        double valor = 2112;
+
+        cout << "12% de 2112 e:" << " " <<(valor * 12) / 100 <<  endl;
+
+    }
