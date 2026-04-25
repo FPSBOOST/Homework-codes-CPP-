@@ -23,3 +23,22 @@ using namespace std;
         cout << "Isto e 12% do seu valor: " << " " << (valor * 12) / 100 << endl;
 
     }
+
+//User valuer and percent
+
+#include <iostream>
+using namespace std;
+
+    int main() {
+        double valor;
+        int p;
+        double resultado;
+
+
+        cout << "coloque o valor: " << endl;
+        cin  >> valor;
+        cout << "coloque a porcentagem: " << endl;
+        cin  >> p;
+        resultado = valor * p /100;
+        cout << resultado << " " << "Valor final" << endl;
+    }
