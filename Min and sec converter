@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+    int main() {
+        int horas;
+        int minutos;
+        int segundos;
+
+        cout << "Por favor, diga que horas sao:" << endl;
+        cin >> horas;
+        cout << "Por favor, diga os minutos:" << endl;
+        cin >> minutos;
+        cout << "Isso da:" << " " << horas * 60 + minutos << " " << "minutos que equivale a" << " ";
+
+        segundos = horas * 3600 + minutos * 60;
+        cout << segundos << " " <<  "segundos" << endl;
+
+        return 0;
+    }
