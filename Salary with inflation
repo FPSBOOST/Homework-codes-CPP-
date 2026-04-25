@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+    int main() {
+
+        double SA;
+        double SD;
+        double Inflação;
+
+        cout << "Qual o valor do seu salario?" << endl;
+        cin >> SA;
+        cout << "Qual o percent da inflacao desse ano?" << endl;
+        cin >> Inflação;
+
+        Inflação = Inflação / 100;
+        SD = SA * Inflação + SA;
+
+
+        cout << "Salario com inflacao aplicada:" << " " << SD << endl;
+        cout << "Percent da inflacao desse ano:" << " " << Inflação * 100 << "%" << endl;
+        cout << "Salario antes da inflacao:" << " " << SA << endl;
+
+    }
