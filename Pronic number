@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int resultado;
+    int  pronico1;
+    int pronico2;
+
+        cout << "Escreva o numero" << endl;
+        cin >> pronico1;
+
+    pronico2 = pronico1 + 1;
+    resultado = pronico1 * pronico2;
+    cout << resultado << endl;
+}
